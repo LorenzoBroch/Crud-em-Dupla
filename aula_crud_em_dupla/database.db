@@ -12,13 +12,14 @@ create table professor (
 
 create table aula (
     id_aula int primary key auto_increment,
-    nome_materia varchar(20),
-    sala_aula varchar(10)
+    nome_aula varchar(20),
+    numero_sala int,
+    horario_aula time
 );
 
 create table diario (
     id_diario int primary key auto_increment,
-    hora_aula time,
+    duracao_aula time,
     fk_professor int,
     fk_aula int,
     foreign key (fk_professor) references professor(id_professor),
