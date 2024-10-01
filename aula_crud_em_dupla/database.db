@@ -22,6 +22,6 @@ create table diario (
     duracao_aula time,
     fk_professor int,
     fk_aula int,
-    foreign key (fk_professor) references professor(id_professor),
-    foreign key (fk_aula) references aula(id_aula)
+    foreign key (fk_professor) references professor(id_professor) on delete cascade, 
+    foreign key (fk_aula) references aula(id_aula) on delete cascade
 );
