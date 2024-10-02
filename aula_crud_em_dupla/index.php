@@ -1,5 +1,5 @@
 <?php
- 
+
     include 'db_connect.php';
 
     $sql_aulas = "SELECT id_aula, nome_aula FROM aula";

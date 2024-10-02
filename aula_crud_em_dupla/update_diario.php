@@ -20,7 +20,6 @@
         if ($conn -> query($sql) === TRUE) {
             echo "Atualização realidada com sucesso";
             header('Location: index.php');
-            exit();
         } else {
             echo "Erro: " . $sql . "<br>" . $conn->error;
         }
@@ -42,7 +41,7 @@
         <h4>
             Abaixo, atualize as informações que deseja:
         </h4>
-        <form method="POST" action="update.php?atualizar_id=<?php echo $id_atualizar; ?>">
+        <form method="POST" action="update_diario.php?atualizar_id=<?php echo $id_atualizar; ?>">
             <label for="nome_aula">Aula:</label>
             <br>
             <select name="nome_aula" required>

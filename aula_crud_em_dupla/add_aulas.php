@@ -55,7 +55,7 @@
                             <td> {$row['nome_aula']} </td>
                             <td> {$row['numero_sala']} </td>
                             <td>
-                                <a href='update_aulas.php?atualizar_id={$row['id_aula']}'>Editar</a> |
+                                <a href='update_aulas.php?id_atualizar_aula={$row['id_aula']}'>Editar</a> |
                                 <a href='add_aulas.php?deletar_id={$row['id_aula']}'>Excluir</a>
                             </td>
                         </tr>";

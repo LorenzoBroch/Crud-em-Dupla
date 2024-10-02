@@ -69,7 +69,7 @@
                             <td> {$row['telefone_professor']} </td>
                             <td> {$row['email_professor']} </td>
                             <td>
-                                <a href='update_professor.php?atualizar_id={$row['id_professor']}'>Editar</a> |
+                                <a href='update_professor.php?id_atualizar_professor={$row['id_professor']}'>Editar</a> |
                                 <a href='add_professores.php?deletar_id={$row['id_professor']}'>Excluir</a>
                             </td>
                         </tr>";
