@@ -15,9 +15,9 @@
         <title>Adicionar professores</title>
     </head>
     <body>
-        <h2>
+        <h1>
             Adicionar professores
-        </h2>
+        </h1>
         <form action="add_professores.php" method="POST">
             <label for="nome_professor">Nome:</label>
             <br>

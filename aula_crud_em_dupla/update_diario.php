@@ -35,9 +35,9 @@
         <title>Atualizar histórico de aulas</title>
     </head>
     <body>
-        <h2>
+        <h1>
             Atualizar histórico de aulas
-        </h2>
+        </h1>
         <h4>
             Abaixo, atualize as informações que deseja:
         </h4>
@@ -90,6 +90,8 @@
             <button type="submit" name="atualizar_aula_historico">
                 Atualizar
             </button>
+
+            <br>
         </form>
     </body>
 </html>

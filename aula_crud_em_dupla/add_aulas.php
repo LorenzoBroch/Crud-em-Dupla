@@ -19,12 +19,12 @@
         <form method='post' action='add_aulas.php'>
             <label for="nome_aula">Nome da aula (matéria a que se refere):</label>
             <br>
-            <input type="text" name='nome_aula' required>
+            <input type="text" name='nome_aula' placeholder="Digite" required>
             <br>
 
             <label for="numero_sala">Número da sala:</label>
             <br>
-            <input type="number" name='numero_sala' required>
+            <input type="number" name='numero_sala' placeholder="Insira um número" required>
             <br>
 
             <label for="horario_aula">Horário padrão de início da aula:</label>
